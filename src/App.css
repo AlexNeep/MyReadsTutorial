@@ -1,0 +1,144 @@
+:root{
+  --main-color: #1d3557;
+  --secondary-color: #457b9d;
+  --light-text:#f1faee;
+  --dark-text:#a8dadc;
+  --highlight:#e63946;
+  --highlight-rgba: 193,102,107;
+}
+.App {
+  text-align: center;
+}
+.background{
+  background: var(--light-text);}
+
+.container {
+  display: flex;
+  margin-top: 5%;
+}
+
+
+.nav{
+  margin: 0;
+  padding:0 20px 0 20px;
+
+  height: 75px;
+
+  background-color: var(--main-color);
+  color: var(--light-text);
+  box-shadow: 0 1px 2px 0 var(--main-color);
+
+  vertical-align:middle; 
+  line-height: 75px;
+
+  margin-bottom: 40px;
+}
+.nav .logo{
+  float:left;
+  font-size: 20px;
+  color:var(--light-text);
+  text-decoration: none;
+}
+.nav .search{
+  float: right;
+  height:25px;
+}
+.nav .search input{
+  background-color: var(--light-text);
+  border-width: 0px;
+  height:100%;
+  padding: 0;
+  border-radius: 2px 0 0 2px;
+  border-style: none;
+  
+
+}
+.nav .search .search-button{
+  -webkit-appearance: none;
+  
+  background-color: var(--highlight);
+  border-width: 0;
+  border-radius: 0 2px 2px 0;
+
+  height:100%;
+
+  padding:1.5px 4px 3.5px 4px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: var(--light-text);
+  font-weight: 600;
+  box-shadow: 0 1px 0 0 rgba(var(--highlight-rgba),0.8);
+
+  cursor: pointer;
+}
+
+
+
+
+/* Shelf CSS */
+.shelf-name{
+  font-size: 20px;
+  text-align: center;
+  color:var(--highlight);
+  font-weight: 600;
+}
+.bookshelf{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+
+  list-style: none;
+  padding-inline-start: 0;
+}
+.bookshelf li{
+
+  width: 200px;
+  height: 75px;
+  margin: auto;
+
+  background-color:var(--secondary-color);
+  border-radius: 20px;
+  padding: 10px 0 10px 0;
+
+  box-shadow:0px 1px 4px 0px var(--secondary-color);
+
+}
+.bookshelf .title{
+  text-align: center;
+  color: var(--main-color);
+  font-weight: 600;
+}
+.bookshelf .author{
+  text-align: center;
+  color: var(--light-text);
+}
+.bookshelf .change-shelf{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.bookshelf a{
+  background-color: grey;
+  color: white;
+  border-radius: 50px;
+
+  padding: 4px 10px 4px 10px;
+}
+
+
+
+
+
+/* Add New Books */
+
+.add-new-books-div{
+  text-align: center;
+  margin: 10px 0 30px 0;
+}
+.add-new-books{
+  color:var(--main-color);
+  font-size:25px;
+}

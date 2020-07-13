@@ -1,0 +1,18 @@
+Main Pages
+
+Books can be on one of three shelves:
+* None (default)
+* Currently Reading Shelf
+* Want to Read Shelf 
+* Read Shelf
+
+Link to /Search
+* Find new books to add to library
+* As they type, matching books should be displayed
+* Button to add the book the the library
+* If already in a shelf, it should show which shelf
+
+Search Page has link to / Page
+
+Add Button
+* Displays list of 4 shelf options
